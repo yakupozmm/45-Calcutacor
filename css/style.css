@@ -4,4 +4,47 @@ box-sizing: border-box;}
 
 body{
     background-color: bisque;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
 }
+
+.container{
+    
+    background-color: darksalmon;
+    width: 44%;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+
+}
+
+.container>h1{
+    text-align: center;
+    padding: 15px;
+}
+
+input{
+    padding: 10px;
+    font-size: 24px;
+    margin: 15px 5px;
+}.container>form{
+    display: flex;
+    justify-content: center;
+}
+
+#count{
+    text-align: center;
+    outline:  none;
+}
+
+#count:focus{border: 2px solid crimson;}
+
+#down , #up{
+    background-color: crimson;
+}
+
+#down:hover , #up:hover{background-color:  brown;
+border: 2px solid white;
+color: white;}
