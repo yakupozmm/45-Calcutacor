@@ -17,12 +17,16 @@ body{
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
+    box-shadow: 0 0 35px crimson;
+    border-radius: 15px;
 
 }
 
 .container>h1{
     text-align: center;
     padding: 15px;
+    text-shadow: 0 0 15px crimson;
+
 }
 
 input{
@@ -48,3 +52,8 @@ input{
 #down:hover , #up:hover{background-color:  brown;
 border: 2px solid white;
 color: white;}
+
+#down:disabled , #up:disabled{background-color:  brown;
+opacity: 0.5;
+cursor: not-allowed; 
+}
